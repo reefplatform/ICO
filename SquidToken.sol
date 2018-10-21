@@ -45,10 +45,10 @@ contract SquidToken is Ownable {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     function SquidToken() public {
-        totalSupply = 500000000 * 10 ** uint256(decimals);  // Update total supply with the decimal amount
+        totalSupply = 921500000000 * 10 ** uint256(decimals);  // Update total supply with the decimal amount
         balanceOf[msg.sender] = totalSupply;                // Give the creator all initial tokens
-        name = "SquidToken";                                   // Set the name for display purposes
-        symbol = "SQWD";                               // Set the symbol for display purposes
+        name = "Squid Token";                                   // Set the name for display purposes
+        symbol = "SQUID";                               // Set the symbol for display purposes
     }
 
     /**
