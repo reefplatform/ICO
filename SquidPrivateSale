@@ -47,7 +47,7 @@ contract SquidPrivatesale is Ownable{
         beneficiary = _addressToSendEthereum;
         fundingGoal = 100 * 1 ether;
         deadline = now + 100 * 1 minutes;
-        // Base rate of SQWD tokens per ETH 
+        // Base rate of SQUID tokens per ETH 
         rate = 1006; //Set 21/10/18 - ETH = £151
         // 100% bonus for whitelisted private-sale
         bonus = 2;
